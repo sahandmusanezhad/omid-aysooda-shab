@@ -84,21 +84,18 @@ body{background:var(--paper);color:var(--ink);font-family:var(--fa);
 .lg{fill:var(--gold-hi);opacity:.45;stroke:none}
 
 .hero-in{position:relative;z-index:5;display:flex;flex-direction:column;align-items:center;gap:6px}
-.has-img .welcome{color:#6B5738;text-shadow:0 1px 3px rgba(255,250,238,.75),0 1px 10px rgba(120,95,50,.3)}
-.has-img .occasion,.has-img .camp{color:#6E5316;
-  text-shadow:0 1px 3px rgba(255,250,238,.7),0 2px 12px rgba(110,85,40,.38)}
-.has-img .ofrule b{color:#7A6642}
-.has-img .cue{color:#6E5316;text-shadow:0 1px 3px rgba(255,250,238,.7),0 2px 10px rgba(110,85,40,.38)}
-.has-img .cname{
-  background:linear-gradient(100deg,#5A4310 0%,#8A6C24 22%,#CDAF6A 38%,#8A6C24 52%,#5A4310 74%,#8A6C24 100%);
+.has-img .welcome{color:#A3906D;opacity:.8;text-shadow:0 1px 2px rgba(255,250,238,.5),0 1px 8px rgba(120,95,50,.16)}
+.has-img .occasion,.has-img .camp{color:#AE9457;opacity:.82;
+  text-shadow:0 1px 2px rgba(255,250,238,.45),0 2px 9px rgba(110,85,40,.18)}
+.has-img .cue{color:#AE9457;opacity:.8;text-shadow:0 1px 2px rgba(255,250,238,.45),0 2px 8px rgba(110,85,40,.18)}
+.has-img .cname{opacity:.86;
+  background:linear-gradient(100deg,#9B8244 0%,#BCA366 22%,#E4D2A6 38%,#BCA366 52%,#9B8244 74%,#BCA366 100%);
   background-size:280% 100%;-webkit-background-clip:text;background-clip:text;
-  filter:drop-shadow(0 1px 2px rgba(255,250,238,.7)) drop-shadow(0 2px 14px rgba(105,80,38,.5))}
+  filter:drop-shadow(0 1px 2px rgba(255,250,238,.5)) drop-shadow(0 2px 10px rgba(105,80,38,.22))}
 .welcome{margin:0;font-size:.84rem;font-weight:300;letter-spacing:.05em;color:var(--ink-2)}
 .occasion{font-family:var(--nas);margin:0;font-size:clamp(1.3rem,6.2vw,1.7rem);line-height:2.6;color:var(--gold-deep)}
-.ofrule{display:flex;align-items:center;gap:12px;margin:0 0 4px}
-.ofrule i{width:48px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
-.ofrule i:last-child{background:linear-gradient(90deg,var(--gold),transparent)}
-.ofrule b{font-family:var(--nas);font-size:.9rem;font-weight:400;color:var(--ink-2)}
+.ofrule{display:flex;align-items:center;justify-content:center;margin:2px 0 6px}
+.ofrule i{width:118px;height:1px;opacity:.55;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
 .cname{font-family:var(--nas);margin:0;line-height:2.1;font-size:clamp(2rem,11.5vw,3.1rem);font-weight:400;
   background:linear-gradient(100deg,#6B531B 0%,#9A7B31 22%,#D8BF82 38%,#9A7B31 52%,#6B531B 74%,#9A7B31 100%);
   background-size:280% 100%;-webkit-background-clip:text;background-clip:text;
@@ -308,7 +305,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--fa);
     <div class="hero-in">
       <p class="welcome">خوش آمدید به</p>
       <p class="occasion">مراسم عروسی</p>
-      <div class="ofrule"><i></i><b>ی</b><i></i></div>
+      <div class="ofrule"><i></i></div>
       <p class="cname">امید</p>
       <span class="camp">و</span>
       <p class="cname">آیسودا</p>
