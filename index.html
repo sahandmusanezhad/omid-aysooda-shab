@@ -182,6 +182,10 @@ body{background:var(--paper);color:var(--ink);font-family:var(--fa);
 .btn:hover{background:linear-gradient(180deg,var(--card-a),var(--card-hv))}
 .btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.5}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center}
+.btns .btn{min-width:13.5rem}
+.btn-alt{background:none;box-shadow:none;border-color:rgba(150,121,58,.45);font-weight:400;padding:12px 22px;font-size:.8rem}
+.btn-alt:hover{background:linear-gradient(180deg,var(--card-a),var(--card-hv))}
 .closing{font-family:var(--nas);font-size:1.05rem;color:var(--gold-deep);line-height:2.6;margin:0}
 
 /* ── دکمهٔ موسیقی ── */
@@ -416,10 +420,16 @@ body{background:var(--paper);color:var(--ink);font-family:var(--fa);
       <b>باغ عروس</b>
     </div>
 
-    <a class="btn rev" href="https://neshan.org/maps/places/2bLq-iGAtQj7" target="_blank" rel="noopener noreferrer">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.8"/></svg>
-      مشاهده روی نقشه
-    </a>
+    <div class="btns rev">
+      <a class="btn" href="https://neshan.org/maps/places/2bLq-iGAtQj7" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.8"/></svg>
+        مسیریابی با نشان
+      </a>
+      <a class="btn btn-alt" href="https://www.google.com/maps/dir/?api=1&amp;destination=37.6870552,45.1758163" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.8"/></svg>
+        مسیریابی با گوگل مپ
+      </a>
+    </div>
 
     <svg class="band rev" viewBox="0 0 200 44" style="margin-top:12px" aria-hidden="true"><path class="st" d="M100.0 24.0 C 66.0 10.0 32.0 12.0 5.0 21.0"/><g transform="translate(92.9 21.3) rotate(-128.6) scale(0.642)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(75.0 16.4) rotate(-212.4) scale(0.667)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(57.5 14.1) rotate(-144.1) scale(0.558)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(40.5 14.1) rotate(131.4) scale(0.517)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(24.3 16.1) rotate(214.6) scale(0.446)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(9.1 19.7) rotate(130.6) scale(0.457)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(5.00 21.00) rotate(251.57) scale(0.302)"><path class="fl" d="M0 -9.4 C4.6 -6.8 6.3 -2.6 6.3 1.1 C6.3 5.6 3.3 8.3 0 8.3 C-3.3 8.3 -6.3 5.6 -6.3 1.1 C-6.3 -2.6 -4.6 -6.8 0 -9.4 Z"/><path class="pt" d="M0 -8 L0 5"/><path class="pt" d="M-6.2 2.6 C-3.4 8.2 3.4 8.2 6.2 2.6"/></g>
 <path class="st" d="M100.0 24.0 C 134.0 10.0 168.0 12.0 195.0 21.0"/><g transform="translate(107.1 21.3) rotate(15.1) scale(0.657)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(125.0 16.4) rotate(-59.2) scale(0.648)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(142.5 14.1) rotate(40.7) scale(0.625)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(159.5 14.1) rotate(-36.7) scale(0.495)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(175.7 16.1) rotate(50.7) scale(0.550)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(190.9 19.7) rotate(-31.0) scale(0.494)"><path class="lf" d="M0 0 C 6 -4.6 15 -4.8 23 0 C 15 4.8 6 4.6 0 0 Z"/><path class="lv" d="M2 0 L21 0"/></g><g transform="translate(195.00 21.00) rotate(108.43) scale(0.302)"><path class="fl" d="M0 -9.4 C4.6 -6.8 6.3 -2.6 6.3 1.1 C6.3 5.6 3.3 8.3 0 8.3 C-3.3 8.3 -6.3 5.6 -6.3 1.1 C-6.3 -2.6 -4.6 -6.8 0 -9.4 Z"/><path class="pt" d="M0 -8 L0 5"/><path class="pt" d="M-6.2 2.6 C-3.4 8.2 3.4 8.2 6.2 2.6"/></g>
